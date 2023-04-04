@@ -20,6 +20,7 @@ public class Main {
         System.out.println(paper);
         paper = paper - 7639;
         System.out.println(paper);
+
         var friend = 19;
         System.out.println(friend);
         friend = friend * 2;
@@ -34,6 +35,22 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        System.out.println(firstBoxer + secondBoxer);
+        System.out.println(secondBoxer - firstBoxer);
+        System.out.println(secondBoxer % firstBoxer);
+
+        var workTime = 640;
+        var timeEmployee = 8;
+        var employees = workTime / timeEmployee;
+        System.out.println("Всего работников в компании - " + employees + " человек");
+
+        var secondEmployees = employees + 94;
+        var secondTimeEmployee = timeEmployee * secondEmployees;
+        System.out.println("Если в компании работает " + secondEmployees + " человек, то всего " + secondTimeEmployee + " часов работы может быть поделено между сотрудниками");
+
     }
 
 }
